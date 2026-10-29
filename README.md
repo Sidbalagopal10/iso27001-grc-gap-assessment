@@ -122,15 +122,21 @@ are detected by the test suite.
 
 ### Run Tests
 
-    python3 -m unittest discover -s tests -v
+```bash
+python3 -m unittest discover -s tests -v
+```
 
 ### Regenerate Executive Report
 
-    python3 scripts/generate_executive_report.py
+```bash
+python3 scripts/generate_executive_report.py
+```
 
 ### Regenerate README
 
-    python3 scripts/generate_readme.py
+```bash
+python3 scripts/generate_readme.py
+```
 
 ## Technology Stack
 
@@ -143,18 +149,20 @@ are detected by the test suite.
 
 ## Project Structure
 
-    iso27001-grc-gap-assessment/
-    ├── README.md
-    ├── scope/
-    ├── asset-inventory/
-    ├── control-assessment/
-    ├── evidence/
-    ├── risk-register/
-    ├── remediation/
-    ├── reports/
-    ├── docs/
-    ├── scripts/
-    └── tests/
+```text
+iso27001-grc-gap-assessment/
+├── README.md
+├── scope/
+├── asset-inventory/
+├── control-assessment/
+├── evidence/
+├── risk-register/
+├── remediation/
+├── reports/
+├── docs/
+├── scripts/
+└── tests/
+```
 
 ## Assessment Limitations
 
