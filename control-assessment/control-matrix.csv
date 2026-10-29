@@ -1,0 +1,11 @@
+Control_ID,Control_Name,Security_Domain,Related_Assets,Assessment_Status,Evidence_Status,Evidence_Reference,Gap_Description
+A.5.1,Policies for information security,Governance,ALL,NOT_MET,SIMULATED,evidence/A.5.1-assessment.md,"Formal information security policy, approval and review processes absent in simulated scenario"
+A.5.9,Inventory of information and other associated assets,Asset Management,AST-001;AST-012,PARTIALLY_MET,SIMULATED,evidence/A.5.9-assessment.md,Inventory completeness and lifecycle maintenance not demonstrated
+A.5.15,Access control,Identity Security,AST-003;AST-004,PARTIALLY_MET,SIMULATED,evidence/A.5.15-assessment.md,Excessive permissions and incomplete access governance in simulated scenario
+A.5.16,Identity management,Identity Security,AST-003;AST-004,PARTIALLY_MET,SIMULATED,evidence/A.5.16-assessment.md,Inconsistent offboarding and incomplete identity lifecycle management
+A.5.17,Authentication information,Identity Security,AST-003;AST-004,PARTIALLY_MET,SIMULATED,evidence/A.5.17-assessment.md,"Incomplete credential distribution, handling and revocation procedures"
+A.5.24,Information security incident management planning and preparation,Incident Response,AST-008,PARTIALLY_MET,SIMULATED,evidence/A.5.24-assessment.md,"Incident response plan, escalation procedures and exercises are incomplete in the simulated scenario"
+A.8.5,Secure authentication,Technical Security,AST-003;AST-004,PARTIALLY_MET,SIMULATED,evidence/A.8.5-assessment.md,Incomplete MFA enforcement and authentication monitoring in simulated scenario
+A.8.9,Configuration management,Cloud Security,AST-001;AST-002,PARTIALLY_MET,SIMULATED,evidence/A.8.9-assessment.md,"Incomplete configuration baselines, drift detection and review processes"
+A.8.13,Information backup,Resilience,AST-001;AST-010,PARTIALLY_MET,SIMULATED,evidence/A.8.13-assessment.md,"Incomplete backup restoration testing, encryption, retention and resilience controls"
+A.8.15,Logging,Security Monitoring,AST-002;AST-008,PARTIALLY_MET,SIMULATED,evidence/A.8.15-assessment.md,"Incomplete centralized logging, retention, log protection and formal review processes"

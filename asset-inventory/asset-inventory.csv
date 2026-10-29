@@ -1,0 +1,13 @@
+Asset_ID,Asset_Name,Asset_Type,Business_Owner,Classification,Criticality,Environment,Evidence_Status
+AST-001,AWS S3 Customer Storage,Cloud Storage,IT Manager,Confidential,High,AWS,SIMULATED
+AST-002,AWS EC2 Production Server,Cloud Compute,IT Manager,Internal,High,AWS,SIMULATED
+AST-003,AWS IAM,Identity Management,IT Manager,Restricted,Critical,AWS,SIMULATED
+AST-004,Microsoft Entra ID,Identity Management,IT Manager,Restricted,Critical,Microsoft Cloud,SIMULATED
+AST-005,Microsoft 365,Collaboration Platform,Operations Manager,Internal,High,SaaS,SIMULATED
+AST-006,Windows Employee Laptops,Endpoint Fleet,IT Manager,Internal,Medium,Corporate,SIMULATED
+AST-007,macOS Administrator Workstations,Privileged Endpoints,IT Manager,Restricted,High,Corporate,SIMULATED
+AST-008,Centralized Security Monitoring,Security Platform,Security Lead,Confidential,High,Security Operations,SIMULATED
+AST-009,Network Firewall,Network Security,IT Manager,Internal,High,Corporate,SIMULATED
+AST-010,Customer Records,Information Asset,Operations Manager,Confidential,Critical,AWS,SIMULATED
+AST-011,Employee Records,Information Asset,HR Manager,Confidential,High,Microsoft Cloud,SIMULATED
+AST-012,Application Source Code,Intellectual Property,Engineering Manager,Confidential,High,Development,SIMULATED

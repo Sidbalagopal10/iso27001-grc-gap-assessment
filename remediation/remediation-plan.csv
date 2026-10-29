@@ -1,0 +1,22 @@
+Action_ID,Risk_ID,Control_ID,Remediation_Action,Responsible_Owner,Priority,Target_Days,Completion_Criteria,Status
+REM-001,RISK-001,A.5.9,Implement asset discovery and reconcile inventory,IT Manager,High,30,Discovery results reconciled and exceptions documented,PLANNED
+REM-002,RISK-003,A.5.9,Document secure asset retirement and disposal process,IT Manager,High,45,Approved procedure and disposal records available,PLANNED
+REM-003,RISK-002,A.5.9,Establish quarterly asset inventory reviews,Security Lead,High,60,Approved review schedule and first review record available,PLANNED
+REM-004,RISK-004,A.5.1,Develop approve and communicate information security policy,Security Lead,High,30,Approved policy and communication records available,PLANNED
+REM-005,RISK-005,A.5.1,Establish periodic and change-triggered policy reviews,Security Lead,High,60,Approved review schedule and assigned policy owner documented,PLANNED
+REM-006,RISK-006,A.5.15,Review privileged permissions and remove unnecessary access,IT Manager,Critical,15,Excessive permissions removed and access review evidence retained,PLANNED
+REM-007,RISK-007,A.5.15,Establish quarterly user and privileged access reviews,IT Manager,High,45,Approved access review procedure and completed review record available,PLANNED
+REM-008,RISK-008,A.5.16,Implement HR-triggered employee offboarding and account deactivation,IT Manager,Critical,15,Approved offboarding procedure and tested account deactivation records available,PLANNED
+REM-009,RISK-009,A.5.16,Establish periodic dormant account identification and review,IT Manager,High,45,Dormant account review schedule and completed review evidence available,PLANNED
+REM-010,RISK-010,A.5.17,Implement secure credential distribution and secrets management procedures,Security Lead,High,30,Approved credential handling procedure and secure distribution evidence available,PLANNED
+REM-011,RISK-011,A.5.17,Implement compromised credential revocation and replacement workflow,Security Lead,Critical,15,Approved revocation procedure and successful workflow test documented,PLANNED
+REM-012,RISK-012,A.5.24,Develop approved incident response plan and define escalation responsibilities,Security Lead,Critical,15,Approved incident response plan and responsibility matrix available,PLANNED
+REM-013,RISK-013,A.5.24,Conduct incident response tabletop exercise and document improvement actions,Security Lead,High,45,Completed tabletop exercise report and tracked improvement actions available,PLANNED
+REM-014,RISK-014,A.8.5,Enforce phishing-resistant MFA across privileged AWS and Microsoft Entra accounts,Security Lead,Critical,15,Privileged account MFA coverage report and successful enforcement tests available,PLANNED
+REM-015,RISK-015,A.8.5,Configure suspicious sign-in detection and authentication alert review procedures,Security Lead,High,30,Authentication monitoring rules and documented alert testing results available,PLANNED
+REM-016,RISK-016,A.8.9,Develop and enforce secure configuration baselines for cloud and endpoint systems,IT Manager,Critical,15,Approved configuration baselines and implementation verification records available,PLANNED
+REM-017,RISK-017,A.8.9,Implement automated configuration drift detection and periodic reviews,IT Manager,High,30,Configuration drift alerts and documented review results available,PLANNED
+REM-018,RISK-018,A.8.13,Implement immutable backup storage with restricted access and encryption,IT Manager,Critical,15,Backup protection configurations and access verification evidence available,PLANNED
+REM-019,RISK-019,A.8.13,Establish periodic backup restoration testing and document recovery results,IT Manager,High,30,Successful restoration test report and recovery procedure documentation available,PLANNED
+REM-020,RISK-020,A.8.15,Centralize endpoint and cloud security logs and establish monitoring procedures,Security Lead,Critical,15,"SIEM log source inventory, ingestion verification and monitoring procedure available",PLANNED
+REM-021,RISK-021,A.8.15,Implement approved log retention requirements and log integrity protection,Security Lead,High,30,Approved retention standard and verified log protection configurations available,PLANNED
